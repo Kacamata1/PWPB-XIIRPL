@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Contoh Kasus Spesifik CSS !Important</title>
+    <style type="text/css">
+        p{
+            color:red ;
+        }
+        div p{
+            color:green;   
+        }
+        #aaa{
+            color:orange;
+        }
+        #bbb {
+            color: green;
+        }
+        body div p{
+            color:yellow;
+        }
+        div p.kalimat{
+            color: silver;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p id="aaa">
+            aku sayang dia
+        </p>
+        <p id="bbb">
+            aku sayang dia
+        </p>
+
+    </div>
+</body>
+</html>

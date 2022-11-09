@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+}
+.wrapper{
+    background-color: aliceblue;
+    width: 1200px;
+    height: 100px;
+}
+.box-1
+{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+/* untuk penulisan value ada 2: 1.YX 2.atas kanan bawah kiri */
+    margin: 30px auto;
+}
+.box-2
+{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(42, 92, 255);
+/* untuk penulisan value ada 2: 1.YX 2.atas kanan bawah kiri */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.box-3
+{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(42, 92, 255);
+/* untuk penulisan value ada 2: 1.YX 2.atas kanan bawah kiri */
+    margin: 30px auto;
+    border: 8px solid chocolate;
+    border-right: 8px dashed khaki;
+    border-bottom: 8px dotted olivedrab;
+    border-left: 8px double sienna;
+}
