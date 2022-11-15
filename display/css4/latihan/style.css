@@ -62,5 +62,7 @@
     margin: -460px 332px;
     color: black;
     text-align: center;
+    border:35px solid chocolate ;
+    border-bottom: blue;
     /* display: inline-block; */
 }
